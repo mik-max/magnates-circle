@@ -2278,7 +2278,14 @@ section-title
   visibility: visible;
   opacity: 1;
 }
-
+.application-sec{
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(../img/slider/slider1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+}
 .sticky {
   position: fixed;
   z-index: 999;
@@ -2312,7 +2319,7 @@ section-title
 .hamburger-menu > a {
   display: inline-block;
   font-size: 25px;
-  color: #441937;
+  color: white;
 }
 
 .side-mobile-menu {
@@ -4923,6 +4930,7 @@ ul.timeline li.timeline-list:hover::after {
 .contact-form .input-box .input-text .form-control {
   background-color: #f5f6fa;
 }
+
 .contact-form .input-box .input-text.input-phone::before {
   content: '\f095';
 }
@@ -4942,7 +4950,7 @@ ul.timeline li.timeline-list:hover::after {
   background-color: #f5f6fa;
 }
 .contact-form .msg-btn a.theme_btn {
-  padding: 22px 72px 22px 72px;
+  padding: 22px 22px 22px 22px;
 }
 
 .contact-map-area .map-02 iframe {
@@ -6204,7 +6212,7 @@ ul.timeline li.timeline-list:hover::after {
   position: absolute;
   content: '\f007';
   font-family: 'Font Awesome 5 pro';
-  font-size: 15px;
+  /* font-size: 15px; */
   color: #441937;
   right: 20px;
   top: 50%;
