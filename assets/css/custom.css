@@ -4,6 +4,13 @@
 .theme2{
      color: #fed857;
 }
+.shaded{
+     background-color: rgba(0, 0, 0, 0.6);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-blend-mode: soft-light;
+}
 .core-values{
      width: 100%;
      height: 100%;

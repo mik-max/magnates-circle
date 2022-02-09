@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Fande - Crowdfunding & Charity HTML5 Template </title>
+    <title>The Magnates Circle </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+    <script src="assets/js/contact.js"></script>
 </head>
 
 <body>
@@ -209,7 +210,7 @@
     <main>
         
         <!--page-title-area start-->
-        <section class="page-title-area" style="background-image:url(assets/img/bg/page-title-bg.jpg);">
+        <section class="page-title-area shaded" style="background-image:url(assets/img/team/contact.jpg);">
             <div class="right-border-shape">
                 <img src="assets/img/shape/02.png" alt="">
             </div>
@@ -243,6 +244,20 @@
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <h3 class="text-center theme1 p-3">Select Region Closer To You</h3>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 ">
+                        <div class="mb-35 form-group">
+                            <select name="state" id="state" onchange="myFunction()" class="form-control">
+                                <option value="" class="form-control">Select State</option>
+                                <option value="Lagos" class="form-control">Lagos</option>
+                                <option value="Abuja" class="form-control">Abuja</option>
+                                <option value="Kano" class="form-control">Kano</option>
+                                <option value="Ilorin" class="form-control"> Ilorin</option>
+                            </select>
+                        </div>
+                    </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
                         <div class="contact-box d-lg-flex mb-50 wow fadeInUp2 animated" data-wow-delay='.1s'>
                             <div class="contact-box__icon">
@@ -250,7 +265,7 @@
                             </div>
                             <div class="contact-box__content">
                                 <h4>Locations</h4>
-                                <h5>21A Lateef Jakande Road Agidingbi
+                                <h5 id="address">21A Lateef Jakande Road Agidingbi
                                     Ikeja Lagos Nigeria</h5>
                             </div>
                         </div>
@@ -273,7 +288,7 @@
                             </div>
                             <div class="contact-box__content">
                                 <h4>Phone Us</h4>
-                                <h5>+(234) 806 412 0099</h5>
+                                <h5 id="phoneNumber">+(234) 806 412 0099</h5>
                             </div>
                         </div>
                     </div>
@@ -346,8 +361,8 @@
         <div class="container-fluid pl-0 pr-0">
             <div class="row no-gutters">
                 <div class="col-xl-12">
-                    <div class="map-area map-02  wow fadeInUp2 animated" data-wow-delay='.1s'>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29168.42973837642!2d90.37845363955077!3d23.958540550000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1606918909925!5m2!1sen!2sbd"></iframe>
+                    <div class="map-area map-02  wow fadeInUp2 animated" data-wow-delay='.1s'>     
+                        <iframe id="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4964.433594341297!2d3.351514977871041!3d6.634581118516276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93e96541ab83%3A0xd60c555347f8c8d4!2s21a%20Lateef%20Jakande%20Rd%2C%20Agidingbi%20100000%2C%20Ikeja!5e0!3m2!1sen!2sng!4v1644255345364!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
             </div>
@@ -478,6 +493,7 @@
     <script src="assets/js/tilt.jquery.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
+    
 </body>
 
 </html>
