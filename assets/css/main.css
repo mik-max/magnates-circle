@@ -4415,11 +4415,12 @@ ul.timeline li.timeline-list:hover::after {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%;
+  height: 300px;
   z-index: 2;
 }
 .events__img img {
   width: 100%;
+  height: 300px;
 }
 .events__img .block-one {
   -webkit-transition: all 0.4s ease-out 0s;
@@ -4431,7 +4432,7 @@ ul.timeline li.timeline-list:hover::after {
 .events__img .events-back {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 300px;
   left: 0;
   top: 0;
   right: 0;
@@ -5235,7 +5236,7 @@ ul.timeline li.timeline-list:hover::after {
   clip-path: polygon(0 14%, 100% 0, 100% 100%, 0% 100%);
   background: white;
   width: 100%;
-  height: 316px;
+  height: 100%;
   left: 0;
   bottom: 0;
   z-index: -1;

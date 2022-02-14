@@ -14,6 +14,7 @@
 
     <!-- CSS here -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
@@ -26,7 +27,7 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/custom.css">
-    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/logic/contact.js"></script>
 </head>
 
 <body>
@@ -243,20 +244,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6">
-                        <h3 class="text-center theme1 p-3">Select Region Closer To You</h3>
+                <div class="contact-region-div">
+                    <div class="contact-header">
+                        <h3 class="text-center theme1 p-3">Select state Closer To You</h3>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 ">
-                        <div class="mb-35 form-group">
-                            <select name="state" id="state" onchange="myFunction()" class="form-control">
-                                <option value="" class="form-control">Select State</option>
-                                <option value="Lagos" class="form-control">Lagos</option>
-                                <option value="Abuja" class="form-control">Abuja</option>
-                                <option value="Kano" class="form-control">Kano</option>
-                                <option value="Ilorin" class="form-control"> Ilorin</option>
-                            </select>
-                        </div>
+                    <div class="contact-input ">
+                        <select name="state" id="state" onchange="myFunction()" class="form-control contact-select">
+                            <option value="" >Select State</option>
+                            <option value="Lagos">Lagos</option>
+                            <option value="Abuja">Abuja</option>
+                            <option value="Kano">Kano</option>
+                            <option value="Ilorin"> Ilorin</option>
+                        </select>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
                         <div class="contact-box d-lg-flex mb-50 wow fadeInUp2 animated" data-wow-delay='.1s'>
