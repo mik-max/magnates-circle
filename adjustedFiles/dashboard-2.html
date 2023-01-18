@@ -5,7 +5,8 @@
           <meta http-equiv="X-UA-Compatible" content="IE=edge">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
-          <title>Dashboard</title>
+          <title>Document</title>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
           <link rel="stylesheet" href="assets/css/bootstrap.min.css">
           <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
           <link rel="stylesheet" href="assets/css/animate.css">
@@ -20,6 +21,7 @@
           <link rel="stylesheet" href="assets/css/main.css">
           <link rel="stylesheet" href="assets/css/custom.css">
           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+          <script src="assets/js/logic/dashboard.js"></script>
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -31,19 +33,15 @@
                          <a class="" href="index.html"><img class="logo-image" src="assets/img/logo/logo.png"
                               alt=""></a>
                     </div>
-                    <!-- <ul class="menu">
-                         <li><a href="index.html">Home</a></li>
-                         <li><a href="about.html">About</a></li>
-                         <li><a href="programs.html">Programs</a></li>
-                         <li><a href="benefits.html">Why Join</a></li>
-                         <li><a href="contact.html">Contact</a></li>
-                    </ul> -->
-                    <a href="application.html" target="_blank" class="theme_btn theme_btn_bg">Log Out<i
+                   
+                    <a href="#" target="_blank" class="theme_btn theme_btn_bg">Log Out<i
                          class="far fa-arrow-right"></i></a>
                     <div class="side-nav">
                          <ul class="side-menu">
                               <li><a href=""><span><i class="fa fa-user" aria-hidden="true"></i></span> My Profile</a></li>
                               <li><a href=""><span><i class="fa fa-bar-chart" aria-hidden="true"></i></span> Application Status</a></li>
+                              <li ><a href="application-list.html"><span><i class="fa fa-bar-chart" aria-hidden="true"></i></span> Applications</a></li>
+                              <li><a href=""><span><i class="fa fa-check " aria-hidden="true"></i></span> Application Approval</a></li>
                               <li><a href=""><span><i class="fa fa-building" aria-hidden="true"></i></span> Programmes</a></li>
                               <li><a href=""><span><i class="fa fa-bullhorn" aria-hidden="true"></i></span> Promotions</a></li>
                               <li><a href=""><span><i class="fa fa-commenting" aria-hidden="true"></i></span> Chat With A Mentor</a></li>
@@ -52,33 +50,31 @@
                     </div>
                </nav>
           </header>
+          
           <main class="dash-main">
-               <div class="dash-progress-bar">
+               <!-- <div class="dash-progress-bar">
                     <div class="prog" id="progress"></div>
                     <div class="dash-progress-step dash-progress-step-active" data-title = ' Start'></div>
-                    <div class="dash-progress-step dash-progress-step-active" data-title = ' Processing'></div>
+                    <div class="dash-progress-step" data-title = ' Processing'></div>
                     <div class="dash-progress-step" data-title = ' Complete'></div>
                     
-               </div>
+               </div -->>
                <!--Application section-->
-               
-               <section class="dash-info-section"> 
-                    <div class="container-fluid">
+               <!-- <section>
+                    <div class="container">
                          <div class="row">
-                              <div class="alert alert-success col-md-12 alert-dismisible dash-alert-div">
-                                   Congratulations, your appplication has been received and is in review.
-                                   <button type="button" class="close" data-dismiss="alert">&times;</button>
-                              </div>
                               <div class="col-md-12 dash-code-div">
                                    <h2 class="text-white">Your Application Code Is  <span class="theme2"><b>KL1W0T92</b></span></h2>
                               </div>
                          </div>
                     </div>
-               </section>
+               </section> -->
 
                <!--Applicants Details section-->
-               <section>
-                    <div class="container-fluid">
+               <section class="p-3">
+                    <div class="container mt-90 p-3" id="applicantsDiv">
+                         <div class="alert fade show mb-5" id="alertDiv">
+                         </div>
                          <div class="row">
                               <div class="col-md-12 dash-applicants-div">
                                    <h3 class="dash-info-text theme1">Applicant's Information</h3>
@@ -155,6 +151,13 @@
                                    <!--Business Details Ends-->
                               </div>
                          </div>
+                    </div>
+               </section>
+               <!--Accept OR Reject Section-->
+               <section>
+                    <div class="dash-2-button-group">
+                         <button class="btn btn-success" id="accept">Accept</button>
+                         <button class="btn btn-danger" id="reject">Reject</button>
                     </div>
                </section>
           </main>

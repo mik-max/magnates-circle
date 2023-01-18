@@ -5,11 +5,18 @@ body {
 }
 
 .logo {
-  background: url('http://i.imgur.com/fd8Lcso.pn') no-repeat;
-  margin: 10% auto auto auto;
-  text-align: center;
-  font-size: 30px;
-  color: #ccc;
+  width: 300px;
+  height: 140px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+}
+.logo-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 100px;
 }
 
 .login-block {

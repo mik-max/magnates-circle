@@ -192,7 +192,7 @@ option{
      font-size: 15px;
 }
 input:hover, input:focus, select:hover, select:focus{
-     border: 1px solid #441937;
+     border: 1px solid #fed857;
 }
 .dash-header{
      background-color: #441937;
@@ -413,51 +413,6 @@ input:hover, input:focus, select:hover, select:focus{
      flex: 30%;
      margin: 15px;
 }
-.applicationList__filterByBusinesstype{
-     display: flex;
-     align-items: center;
-     margin: 30px auto;
-     width: 100%;
-     max-width: 950px;
-}
-
-.applicationList__searchInput{
-     flex: 70%;
-     padding: 19px 19px;
-     outline: none;
-}
-.applicationList__searchInput::placeholder{
-     color: black;
-}
-
-.applicationList__searchBtn{
-     padding: 18px 18px;
-     outline: none;
-     flex: 30%;
-     background-color: #441937;
-     color: white;
-     cursor: pointer;
-     text-transform: uppercase;
-     transition: all 0.2s ease 0s;
-     font-size: 20;
-     font-weight: 600;
-     border: none;
-    
-   }
-   .applicationList__searchBtn span{
-      font-size: 16.5px;
-   }
-   .applicationList__searchBtn:hover{
-     background-color: #35142b;
-   }
-   .applicationList__searchBtn:focus{
-     outline: none;
-   }
-
-.application-list__table {
-     width: 100%;
-     max-width: 960px;
-}
 thead tr td{
      font-size: 12px;
      font-weight: 700;
@@ -579,18 +534,6 @@ thead tr td{
           }
           .contact-input, .contact-header{
                flex: 100%;
-          }
-          .applicationList__filterByBusinesstype{
-               flex-wrap: wrap;
-               justify-content: center;
-          }
-          .applicationList__searchInput{
-               flex: 100%;
-               margin-bottom: 5px;
-          }
-          .applicationList__searchBtn{
-               flex: 100%;
-               margin-bottom: 5px;
           }
            
      }

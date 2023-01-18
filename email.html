@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+     </head>
+     <style>
+          *{
+               padding: 0;
+               margin: 0;
+               box-sizing: border-box;
+          }
+          body{
+               background-color: #f1f2f3;
+          }
+          .container{
+               width: 100%;
+               height: auto;
+               background-color: #f1f2f3;
+               padding: 50px 30px;
+          }
+          .logo {
+               width: 250px;
+               height: 90px;
+               margin: 0 auto;
+               
+          }
+          .logo-img{
+               height: 100%;
+               width: 100%;
+               object-fit: cover;
+          }
+          .email-container{
+               background-color: white;
+               border-radius: 4px;
+               position: absolute;
+               top: 50%; 
+               left: 50%;
+               transform: translate(-50%, -50%);
+               height: auto;
+               width: 100%;
+               max-width: 500px;
+          }
+          .title{
+               font-size: 25px;
+               font-weight: 600;
+               color: #fed857;
+               text-align: center;
+               margin-bottom: 5%;
+               margin-top: 5%;
+          }
+          .greeting{
+               font-size: 18px;
+               font-weight: 500;
+               padding: 10px 20px;
+               text-align: left;
+          }
+          .applicant_name{
+               color: #441937;
+               font-weight: 700;
+          }
+          .info_1{
+               font-size: 17px;
+               color: rgb(163, 163, 163);
+               line-height: 1.5;
+               letter-spacing: .6px;
+               text-align: left;
+               max-width: 500px;
+               padding: 10px 20px;
+          }
+          .header{
+               background-color: #441937;
+               width: 100%;
+               height: 80px;
+          }
+          .list{
+               list-style-type: none;
+               color: #441937;
+               font-size: 18px;
+          }
+          .menu{
+               padding: 10px 20px;
+          }
+          .list a{
+               text-decoration: none;
+          }
+          .list a:hover{
+               text-decoration: underline;
+          }
+          .application-code{
+               text-transform: uppercase;
+          }
+          .sign-up{
+               color: #441937;
+               padding: 10px 20px;
+          }
+          /* small mobile :320px. */
+          @media (max-width: 767px) {
+               
+          
+          }
+          
+          /* Large Mobile :480px. */
+          @media only screen and (min-width: 480px) and (max-width: 767px) {
+               
+          }
+     </style>
+     <body>
+          <div class="email-container">
+               <div class="header">
+                   <div class="logo">
+                        <a  href="index.html"><img class="logo-img" src="assets/img/logo/logo.png"
+                        alt=""></a>
+                    </div>
+               </div>
+               <h1 class="title">Application Submission Recieved!</h1>
+              <h2 class="greeting">Hi <span id="applicantName" class="applicant_name">Michael Chinye!</span></h2>
+              <p class="info_1">
+                   You have just submitted your application information. Your application is currently processing and in review. You will get notification from one of our agents shortly.
+                   <br/><br/>
+                   Kindly make use of the Code as a Password to Sign In on the Platform
+              </p>
+              <ul class="menu">
+                   <li class="list ">Email Address: <span><a href="" id="emailAddress">michaelchinye2019@gmail.com</a></span></li>
+                   <li class="list"> Application Code: <span id="applicationCode" class="application-code">Appl1892</span></li>
+              </ul>
+              <p class="sign-up">Click <span><a href="" id="signUpLink" >here</a></span> to proceed to Create your Account</p>
+          </div>
+     </body>
+</html>

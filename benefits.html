@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Fande - Crowdfunding & Charity HTML5 Template </title>
+    <title>The Magnates Circle </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="manifest" href="site.webmanifest">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
@@ -56,7 +56,7 @@
                     </div>
                     <div class="col-xl-5 col-lg-5 d-flex justify-content-end">
                         <div class="login-area">
-                            <a class="media-link" href="login.html" target="_blank"><i class="far fa-lock-alt"></i> Login</a>
+                            <a class="media-link" href="login.html" target="_blank"><i class="far fa-lock-alt"></i>Login</a>
                         </div>
                         <div class="top-right-nav">
                             <ul>
@@ -233,6 +233,7 @@
             </div>
         </section>
         <!--page-title-area end-->
+        
         <!--events-area start-->
         <section class="events-area pt-130 pb-45">
             <div class="container">
@@ -247,20 +248,37 @@
                             <div class="events__content pos-abl"> 
                                 <span><i class="far fa-map-marker-alt"></i>  </span>
                                 <h5 class="events-title"><a href="">Updated Business Registration</a></h5>
-                                <a href="" class="more_btn"><i class="far fa-arrow-right"></i></a>
-                                <!-- <div class="flip-card">
-                                    <div class="flip-card-inner">
-                                      <div class="flip-card-front">
-                                        <img >
-                                      </div>
-                                      <div class="flip-card-back">
-                                        <h1>Updated Business Registration</h1>
-                                        <button>Read more</button>
-                                      </div>
-                                    </div>
-                                </div>  -->  
+                                <a class="more_btn" data-toggle="modal" data-target="#businessRegistration"><i class="far fa-arrow-right"></i></a> 
                             </div>
                         </div>
+                        <!--Modal Section-->
+                        <div class="modal fade" id="businessRegistration">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                 <div class="modal-content">
+                            
+                                      <!-- Modal Header -->
+                                      <div class="modal-header theme1-bg">
+                                           <h4 class="text-white text-center moadl-header-text">Update Business Registration</h4>
+                                      </div>
+                                 
+                                      <!-- Modal body -->
+                                      <div class="modal-body p-4">
+                                           <p class="modal-body-text">The first thing any entrepreneur should do when starting your business is CAC registration, this enables you have the legal right to the name upon you are building your brand.
+                                            Building brand to later discover someone else has the right to the business name is not a pleasant experience when you consider the pain of building a brand.
+                                            TMC is posed to position your business for appropriate CAC registration
+                                            
+                                            </p>
+                                      </div>
+                                 
+                                      <!-- Modal footer -->
+                                      <div class="modal-footer">
+                                           <button class="btn btn-secondary close-btn" data-dismiss="modal">Close</button>
+                                      </div>
+                            
+                                 </div>
+                            </div>
+                       </div>
+                       <!--Modal Section ends-->
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="events mb-85 wow fadeInUp2 animated" data-wow-delay=".3s">
@@ -272,20 +290,36 @@
                             <div class="events__content pos-abl"> 
                                 <span><i class="far fa-map-marker-alt"></i>  </span>
                                 <h5 class="events-title"><a href="">Business Insurance</a></h5>
-                                <a href="" class="more_btn"><i class="far fa-arrow-right"></i></a>
-                                <!-- <div class="flip-card">
-                                    <div class="flip-card-inner">
-                                      <div class="flip-card-front">
-                                        <img >
-                                      </div>
-                                      <div class="flip-card-back">
-                                        <h1>Business Insurance</h1>
-                                        <button>Read more</button>
-                                      </div>
-                                    </div>
-                                </div> -->   
+                                <a href="" class="more_btn" data-toggle="modal" data-target="#businessInsurance"><i class="far fa-arrow-right"></i></a>
+                                
                             </div>
                         </div>
+                        <!--Modal Section-->
+                        <div class="modal fade" id="businessInsurance">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                 <div class="modal-content">
+                            
+                                      <!-- Modal Header -->
+                                      <div class="modal-header theme1-bg">
+                                           <h4 class="text-white text-center moadl-header-text"> Business Insurance</h4>
+                                      </div>
+                                 
+                                      <!-- Modal body -->
+                                      <div class="modal-body p-4">
+                                           <p class="modal-body-text">Business insurance is not optional regardless of the size of the business, insurance has different policies that can take care of your lost at any level. There are times business operations must halt because of break- in, fire, flood, robbery even natural disaster. Based on the historically information, some insurance policies would pay your policy not during the time your business is faced with economic challenges.
+                                            TMC will always leverage on our partnership with some of the trusting insurance companies in Nigeria to deliver to you a favoured made insurance packages that takes care of your list at all time.
+                                            </p>
+                                      </div>
+                                 
+                                      <!-- Modal footer -->
+                                      <div class="modal-footer">
+                                           <button class="btn btn-secondary close-btn" data-dismiss="modal">Close</button>
+                                      </div>
+                            
+                                 </div>
+                            </div>
+                       </div>
+                       <!--Modal Section ends-->
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="events mb-85 wow fadeInUp2 animated" data-wow-delay=".5s">
@@ -297,17 +331,37 @@
                             <div class="events__content pos-abl"> 
                                 <span><i class="far fa-map-marker-alt"></i>  </span>
                                 <h5 class="events-title"><a href="">Health Insurance </a></h5>
-                                <a href="" class="more_btn"><i class="far fa-arrow-right"></i></a>
-                                <!-- <div class="card">
-                                    <div class="content">
-                                      <div class="front">
-                                        <h1>Updated Business Registration</h1>
-                                      </div>
+                                <a href="" class="more_btn" data-toggle="modal" data-target="#healthInsurance"><i class="far fa-arrow-right"></i></a>
                                 
-                                    </div>
-                                </div> -->
                             </div>
                         </div>
+                        <!--Modal Section-->
+                        <div class="modal fade" id="healthInsurance">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                 <div class="modal-content">
+                            
+                                      <!-- Modal Header -->
+                                      <div class="modal-header theme1-bg">
+                                           <h4 class="text-white text-center moadl-header-text"> Health Insurance</h4>
+                                      </div>
+                                 
+                                      <!-- Modal body -->
+                                      <div class="modal-body p-4">
+                                           <p class="modal-body-text">
+                                            In building successful entrepreneurs, we realise that perfect health is a prerequisite for successful living and we are concerned on the quality of lives our members lives which we do through our health insurance and H/MO scheme.
+                                            An invaluable platform available to every member across the 36 states. Our members have direct access to more than 100 highly ranked hospitals in Nigeria.
+                                            </p>
+                                      </div>
+                                 
+                                      <!-- Modal footer -->
+                                      <div class="modal-footer">
+                                           <button class="btn btn-secondary close-btn" data-dismiss="modal">Close</button>
+                                      </div>
+                            
+                                 </div>
+                            </div>
+                       </div>
+                       <!--Modal Section ends-->
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="events mb-85 wow fadeInUp2 animated" data-wow-delay=".1s">
@@ -319,20 +373,38 @@
                             <div class="events__content pos-abl"> 
                                 <span><i class="far fa-map-marker-alt"></i>  </span>
                                 <h5 class="events-title"><a href="">Business Plan</a></h5>
-                                <a href="" class="more_btn"><i class="far fa-arrow-right"></i></a>
-                                <!-- <div class="flip-card">
-                                    <div class="flip-card-inner">
-                                      <div class="flip-card-front">
-                                        <img >
-                                      </div>
-                                      <div class="flip-card-back">
-                                        <h1>Business Plan</h1>
-                                        <button>Read more</button>
-                                      </div>
-                                    </div>
-                                </div>  -->  
+                                <a href="" class="more_btn" data-toggle="modal" data-target="#businessPlan"><i class="far fa-arrow-right"></i></a>
+                                 
                             </div>
                         </div>
+                        <!--Modal Section-->
+                        <div class="modal fade" id="businessPlan">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                 <div class="modal-content">
+                            
+                                      <!-- Modal Header -->
+                                      <div class="modal-header theme1-bg">
+                                           <h4 class="text-white text-center moadl-header-text">Business Plan</h4>
+                                      </div>
+                                 
+                                      <!-- Modal body -->
+                                      <div class="modal-body p-4">
+                                           <p class="modal-body-text">
+                                            Every business needs to have a written business plan, your blue print determines how an investor or a potential partner sees your business either you know everything about your industry, written out your plans provides you direction and also attracts an investor.
+                                            Since our objective is to ensure your business succeed, first thing to do is to help you translate your business idea into an achievable and time bound business plan.
+                                                                                        
+                                           </p>
+                                      </div>
+                                 
+                                      <!-- Modal footer -->
+                                      <div class="modal-footer">
+                                           <button class="btn btn-secondary close-btn" data-dismiss="modal">Close</button>
+                                      </div>
+                            
+                                 </div>
+                            </div>
+                       </div>
+                       <!--Modal Section ends-->
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 card-cont" >
                         <div class="events mb-85 wow fadeInUp2 animated front"  data-wow-delay=".3s">
@@ -344,18 +416,39 @@
                             <div class="events__content pos-abl"> 
                                 <span><i class="far fa-map-marker-alt"></i>  </span>
                                 <h5 class="events-title"><a href="">Professional Certification Programme</a></h5>
-                                <a href="" class="more_btn"><i class="far fa-arrow-right"></i></a>
-                                <!-- <div class="card">
-                                    <div class="content">
-                                      <div class="front">
-                                        <h1>Updated Business Registration</h1>
-                                      </div>
-                                      
-                                    </div>
-                                </div> -->
+                                <a href="" class="more_btn" data-toggle="modal" data-target="#certificationProgramm"><i class="far fa-arrow-right"></i></a>
+                                
                             </div>
                         </div>
-                        
+                        <!--Modal Section-->
+                        <div class="modal fade" id="certificationProgramm">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                 <div class="modal-content">
+                            
+                                      <!-- Modal Header -->
+                                      <div class="modal-header theme1-bg">
+                                           <h4 class="text-white text-center moadl-header-text">Certification Programme</h4>
+                                      </div>
+                                 
+                                      <!-- Modal body -->
+                                      <div class="modal-body p-4">
+                                           <p class="modal-body-text">
+                                            At TMC we understand how certification can limit you from reaching the peak of your career irrespective of your skill. Our professional certification programme is designed to position you for a series of courses organised by your industry to build and enhance your skill.
+                                            This would help you find the right programme for your career, learn and gain expertise at your own pace while you earn a credential that makes you stand out in your field.
+                                            
+                                                                                 
+                                           </p>
+                                      </div>
+                                 
+                                      <!-- Modal footer -->
+                                      <div class="modal-footer">
+                                           <button class="btn btn-secondary close-btn" data-dismiss="modal">Close</button>
+                                      </div>
+                            
+                                 </div>
+                            </div>
+                       </div>
+                       <!--Modal Section ends-->
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="events mb-85 wow fadeInUp2 animated" data-wow-delay=".5s">
@@ -367,20 +460,37 @@
                             <div class="events__content pos-abl"> 
                                 <span><i class="far fa-map-marker-alt"></i>  </span>
                                 <h5 class="events-title"><a href="">Project Funding</a></h5>
-                                <a href="" class="more_btn"><i class="far fa-arrow-right"></i></a>
-                               <!--  <div class="flip-card">
-                                    <div class="flip-card-inner">
-                                      <div class="flip-card-front">
-                                        <img >
-                                      </div>
-                                      <div class="flip-card-back">
-                                        <h1>Project Funding</h1>
-                                        <button>Read more</button>
-                                      </div>
-                                    </div>
-                                </div>    -->
+                                <a href="" class="more_btn" data-toggle="modal" data-target="#projectFunding"><i class="far fa-arrow-right"></i></a>
+                            
                             </div>
                         </div>
+                        <!--Modal Section-->
+                        <div class="modal fade" id="projectFunding">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                 <div class="modal-content">
+                            
+                                      <!-- Modal Header -->
+                                      <div class="modal-header theme1-bg">
+                                           <h4 class="text-white text-center moadl-header-text">Project Funding</h4>
+                                      </div>
+                                 
+                                      <!-- Modal body -->
+                                      <div class="modal-body p-4">
+                                           <p class="modal-body-text">
+                                            Accessing financing has over time proved to be a very arduous task for businesses in Nigeria especially at the grass root level though this may be blamed on Banking policies, High interest rate and poor history of credit defaulters.
+                                            We have put a measure in place to help you fund your projects and increase your business capacity through TMC project fund system, either by bank loan or a direct loan platform depending on the amount your project requires. All project funding under this platform would be thoroughly monitored to ensure an achievable payment plan. Project funding is subject to the approval of TMC leadership.                        
+                                           </p>
+                                      </div>
+                                 
+                                      <!-- Modal footer -->
+                                      <div class="modal-footer">
+                                           <button class="btn btn-secondary close-btn" data-dismiss="modal">Close</button>
+                                      </div>
+                            
+                                 </div>
+                            </div>
+                       </div>
+                       <!--Modal Section ends-->
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="events mb-85 wow fadeInUp2 animated" data-wow-delay=".1s">
@@ -392,20 +502,39 @@
                             <div class="events__content pos-abl"> 
                                 <span><i class="far fa-map-marker-alt"></i>  </span>
                                 <h5 class="events-title"><a href="">Asset Acquisation</a></h5>
-                                <a href="" class="more_btn"><i class="far fa-arrow-right"></i></a>
-                                <!-- <div class="flip-card">
-                                    <div class="flip-card-inner">
-                                      <div class="flip-card-front">
-                                        <img >
-                                      </div>
-                                      <div class="flip-card-back">
-                                        <h1>Asset Acquisation</h1>
-                                        <button>Read more</button>
-                                      </div>
-                                    </div>
-                                </div>    -->
+                                <a href="" class="more_btn" data-toggle="modal" data-target="#assetAquisation"><i class="far fa-arrow-right"></i></a>
+                                
                             </div>
                         </div>
+                        <!--Modal Section-->
+                        <div class="modal fade" id="assetAquisation">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                 <div class="modal-content">
+                            
+                                      <!-- Modal Header -->
+                                      <div class="modal-header theme1-bg">
+                                           <h4 class="text-white text-center moadl-header-text">Asset Acquisation</h4>
+                                      </div>
+                                 
+                                      <!-- Modal body -->
+                                      <div class="modal-body p-4">
+                                           <p class="modal-body-text">
+                                            Acquiring assists or business tools may be a very difficult task during start-up or at the merging stage of a business. This platform is posed to provide you with opportunities to acquire assets that will benefit and foster the growth of your business.
+                                            Assets acquisition here can done based on an instalment payment plan or at a reduced pricing rate compare to the regular market price rates. This we achieved through partnership and assets includes: e.g. Office Furniture’s, Office equipment, Tools, Electronics, Cars etc.
+                                            
+                                                          
+                                           </p>
+                                      </div>
+                                 
+                                      <!-- Modal footer -->
+                                      <div class="modal-footer">
+                                           <button class="btn btn-secondary close-btn" data-dismiss="modal">Close</button>
+                                      </div>
+                            
+                                 </div>
+                            </div>
+                       </div>
+                       <!--Modal Section ends-->
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="events mb-85 wow fadeInUp2 animated" data-wow-delay=".3s">
@@ -417,20 +546,37 @@
                             <div class="events__content pos-abl"> 
                                 <span><i class="far fa-map-marker-alt"></i>  </span>
                                 <h5 class="events-title"><a href="">Human Rights and Legal Assistance</a></h5>
-                                <a href="" class="more_btn"><i class="far fa-arrow-right"></i></a>
-                                <!-- <div class="flip-card">
-                                    <div class="flip-card-inner">
-                                      <div class="flip-card-front">
-                                        <img >
-                                      </div>
-                                      <div class="flip-card-back">
-                                        <h1>Human Rights and Legal Assistance</h1>
-                                        <button>Read more</button>
-                                      </div>
-                                    </div>
-                                </div>    -->
+                                <a href="" class="more_btn" data-toggle="modal" data-target="#humanRights"><i class="far fa-arrow-right"></i></a>
+                                
                             </div>
                         </div>
+                        <!--Modal Section-->
+                        <div class="modal fade" id="humanRights">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                 <div class="modal-content">
+                            
+                                      <!-- Modal Header -->
+                                      <div class="modal-header theme1-bg">
+                                           <h4 class="text-white text-center moadl-header-text">Human Rights and Legal Assistance</h4>
+                                      </div>
+                                 
+                                      <!-- Modal body -->
+                                      <div class="modal-body p-4">
+                                           <p class="modal-body-text">
+                                            As a member of TMC, our legal practioners stands to educates you on all you need to know about your human right and freedom you are entitled to in the business world.
+                                                      
+                                           </p>
+                                      </div>
+                                 
+                                      <!-- Modal footer -->
+                                      <div class="modal-footer">
+                                           <button class="btn btn-secondary close-btn" data-dismiss="modal">Close</button>
+                                      </div>
+                            
+                                 </div>
+                            </div>
+                       </div>
+                       <!--Modal Section ends-->
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <div class="events mb-85 wow fadeInUp2 animated" data-wow-delay=".5s">
@@ -442,20 +588,37 @@
                             <div class="events__content pos-abl"> 
                                 <span><i class="far fa-map-marker-alt"></i>  </span>
                                 <h5 class="events-title"><a href="">Conferences/ Workshop Exhibition</a></h5>
-                                <a href="" class="more_btn"><i class="far fa-arrow-right"></i></a>
-                                <!-- <div class="flip-card">
-                                    <div class="flip-card-inner">
-                                      <div class="flip-card-front">
-                                        <img >
-                                      </div>
-                                      <div class="flip-card-back">
-                                        <h1>Conferences/ Workshop Exhibition</h1>
-                                        <button>Read more</button>
-                                      </div>
-                                    </div>
-                                </div> -->   
+                                <a href="" class="more_btn" data-toggle="modal" data-target="#exhibition"><i class="far fa-arrow-right"></i></a>
+                                  
                             </div>
                         </div>
+                        <!--Modal Section-->
+                        <div class="modal fade" id="exhibition">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                 <div class="modal-content">
+                            
+                                      <!-- Modal Header -->
+                                      <div class="modal-header theme1-bg">
+                                           <h4 class="text-white text-center moadl-header-text">Conferences/ Workshop Exhibition</h4>
+                                      </div>
+                                 
+                                      <!-- Modal body -->
+                                      <div class="modal-body p-4">
+                                           <p class="modal-body-text">
+                                            What can you give for the opportunity to tap into the gathering of fellow entrepreneurs who can offer you better direction based on their experiences? Conference, Workshop and Exhibitions holds through 12 calendar months, it’s a combination of events and a provocative learning atmosphere where middle age grassroot entrepreneurs connect with industry giants across the nation. It’s a citadel where real business experience is mixed with present state reality to form a world of attainable dream.
+                                            International conference is schedule for once a year with series of events to review the concluding year, give the annual closing remark in preparation for the year ahead as well as to enable our members an international experience.
+                                           </p>
+                                      </div>
+                                 
+                                      <!-- Modal footer -->
+                                      <div class="modal-footer">
+                                           <button class="btn btn-secondary close-btn" data-dismiss="modal">Close</button>
+                                      </div>
+                            
+                                 </div>
+                            </div>
+                       </div>
+                       <!--Modal Section ends-->
                     </div>
                 </div>
             </div>
